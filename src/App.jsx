@@ -5,7 +5,7 @@ import { Header, Form } from "./Components";
 function App() {
   return (
     <div className="container">
-      <div className="app-wrapper">
+      <div className="app-wrapper sm:min-w-[80px]">
         <div>
           <Header />
         </div>
